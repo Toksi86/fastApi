@@ -11,3 +11,9 @@ To install fastApi module use the command:
 ```sh
 python -m pip install fastapi[all] 
 ```
+
+## Start server
+
+```sh
+uvicorn main:app --reload
+```
